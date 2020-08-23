@@ -1,0 +1,290 @@
+
+html{
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+
+}
+body{
+    margin:0;
+    padding:0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    font-family: open sans,Arial,helvetica neue,Helvetica,sans-serif;
+}
+.all{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+    height: 100%;  
+    
+}
+
+p{
+    margin:0;
+    padding:0;
+    width: auto;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+}
+header h1{
+    color:white;
+    margin :0;
+}
+#buttons{
+    margin-left:100px;
+    height: 80px;
+    box-sizing: border-box;
+ 
+}
+
+#fadeout, #fadein, #fortoggle{
+	box-shadow: 1px 1px 0px 1px #ffffff;
+    background-color: black;
+    color:white;
+    width :70px ;
+    height: 70px;
+    border:0;
+    margin: 5px;
+}
+#fortoggle{
+    margin-left: 270px;
+}
+
+
+#fadeout:active, #fadein:active, #fortoggle:active{
+    position:relative;
+	top:1px;
+}
+.container{
+    color:black;    
+    width: 400px;
+    height: 440px;
+    float: left;
+    text-align: center;
+    padding: 6px;
+    position: relative;
+}
+.container2{
+    margin-top: auto;
+    border: 2px solid black;
+    width: 500px;
+    background: rgba(102, 97, 97, 0.7);
+    height: 600px;
+    display: inline-block;
+    color:white;
+    font-size: 6mm;
+    position: relative;
+}
+.smallbox2s a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.smallbox1 p{
+    margin:0;
+    padding:0;
+}
+.imgbox1,.imgbox2,.imgbox3,.imgbox4,.imgbox5,.imgbox6,.imgbox7,.imgbox8,.imgbox9{
+    width:300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left:0;
+    opacity: 0;  
+    transition: ease all 0.3s;
+}
+.smallbox1 p:hover{
+    background-color: blueviolet;
+    -webkit-animation: ease-in;
+}
+.imgbox1{
+    background-image: url("img/warrior2.png");
+    background-size: cover;
+}
+.imgbox2{
+    background-image: url("img/warlock2.png");
+    background-size: cover;
+}
+.imgbox3{
+    background-image: url("img/priest2.png");
+    background-size: cover;
+}
+.imgbox4{
+    background-image: url("img/mage2.png");
+    background-size: cover;
+}
+.imgbox5{
+    background-image: url("img/rogue2.png");
+    background-size: cover;
+}
+.imgbox6{
+    background-image: url("img/shaman2.png");
+    background-size: cover;
+}
+.imgbox7{
+    background-image: url("img/hunter2.png");
+    background-size: cover;
+}
+.imgbox8{
+    background-image: url("img/druid2.png");
+    background-size: cover;
+}
+.imgbox9{
+    background-image: url("img/paladin2.png");
+    background-size: cover;
+}
+.content1,.content2,.content3,.content4,.content5,.content6,.content7,.content8,.content9{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 150px;
+    color:black;
+    border: black;
+    opacity: 0;
+    font-family: open sans,Arial,helvetica neue,Helvetica,sans-serif;
+}
+
+.smallbox1:hover,.smallbox2:hover,.smallbox3:hover,.smallbox4:hover,.smallbox5:hover,.smallbox6:hover,.smallbox7:hover,.smallbox8:hover,.smallbox9:hover {
+    opacity:0.9;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+
+.smallbox1, .smallbox2, .smallbox3, .smallbox4, .smallbox5, .smallbox6, .smallbox7, .smallbox8,.smallbox9{
+    padding:4px;
+    margin: 3px;
+    border: 2px solid black;
+    display: none;
+    width: 110px;
+    height: 110px;
+    opacity: 0.5;
+}
+.smallbox2{
+    background-image: url("logos1/warlock.jpg");
+    background-size: cover;
+
+}
+.smallbox3{
+    background-image: url("logos1/priest.jpg");
+    background-size: cover;
+}
+.smallbox5{
+    background-image: url("logos1/rogue.jpg");
+    background-size: cover;
+
+}.smallbox6{
+    background-image: url("logos1/shaman.jpg");
+    background-size: cover;
+
+}.smallbox8{
+    background-image: url("logos1/druid.jpg");
+    background-size: cover;
+}
+.smallbox9{
+    background-image: url("logos1/paladin.jpg");
+    background-size: cover;
+}
+.smallbox1{
+    background-image: url("logos1/warrior.jpg");
+    background-size: cover;
+}
+.smallbox4{
+    background-image: url("logos1/mage.jpg");
+    background-size: cover;
+}
+.smallbox7{
+    background-image: url("logos1/hunter.jpg");
+    background-size: cover;
+}
+.firsth1{
+    background-color: black;
+    opacity: 0.9;
+    color:white;
+    margin:0;
+    text-align: center;
+}
+
+.forinput{
+    color:red;
+    border:2px solid black;
+    display: table;
+    position: absolute  ;
+    bottom:3px;
+    left: 28%;
+    text-align: center;
+    
+}
+input{
+    float: right;
+}
+
+.transparent{
+    background-color: lightcoral;
+}
+
+
+#inbox{
+    color:green;
+}
+/* THIE SIDEBAR*/
+.sidebar{
+    background:rgba(0, 0, 0, 0.75);
+    margin:40px auto;
+    padding:10px 0px 20px 0px;
+    border:1px solid #111;
+    border-radius:4px;
+    box-shadow:0px 4px 5px rgba(0, 0, 0, 0.75);
+    position: fixed;
+    width: 200px;
+    display: block;
+ }
+ .link{
+    font-size:20px;
+    color:white;
+    font-weight:300;
+    text-align:center;
+    position:relative;
+    height:40px;
+    line-height:40px;
+    margin-top:10px;
+    overflow:hidden;
+    width:90%;
+    margin-left:5%;
+    margin-bottom: 20px;
+    cursor:pointer;
+    border-bottom: white;
+ }
+
+ .link:after{
+    content: '';
+    position:absolute;
+    width:80%;
+    border-bottom:1px solid rgb(255, 255, 255);
+    bottom:30%;
+    left:-100%;
+    transition-delay: all 0.5s;
+    transition: all 0.5s;
+ }
+
+ .link:hover:after,
+ .link.hover:after{
+    left:100%;
+ }
+ .link .text{
+    text-shadow:0px -40px 0px rgba(255, 255, 255, 1);
+    transition:all 0.75s;
+    transform:translateY(100%) translateZ(0);
+    transition-delay:all 0.25s;
+ }
+
+ /*END OF SIDEBAR*/
